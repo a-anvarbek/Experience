@@ -11,7 +11,7 @@ import Landing from "./pages/Landing";
 import Content from "./pages/Content";
 import Features from "./pages/Features";
 import Form from "./pages/Form";
-import Testimonial from "./pages/Testimonial";
+// import Testimonial from "./pages/Testimonial";
 import styled from "styled-components";
 // import CallToAction from "./pages/CallToAction";
 // import ShowCase from "./pages/ShowCase";
@@ -27,7 +27,7 @@ export default function MainProject() {
       <Content />
       <Features />
       <Form />
-      <Testimonial />
+      {/* <Testimonial /> */}
     </Wrapper>
   );
 }
