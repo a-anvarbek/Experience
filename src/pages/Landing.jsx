@@ -39,9 +39,6 @@ export default function Landing() {
                     <span className="dot"></span>
                 </div>
             </div>
-
-            <div className="arrow left">‹</div>
-            <div className="arrow right">›</div>
         </div>
     );
 }
