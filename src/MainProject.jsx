@@ -14,8 +14,8 @@ import Form from "./pages/Form";
 // import Testimonial from "./pages/Testimonial";
 import styled from "styled-components";
 // import CallToAction from "./pages/CallToAction";
-// import ShowCase from "./pages/ShowCase";
-// import Team from "./pages/Team";
+import ShowCase from "./pages/ShowCase";
+import Team from "./pages/Team";
 // import Contact from "./pages/Contact";
 // import PricingTable from "./pages/PricingTable";
 // import Footer from "./pages/Footer";
@@ -28,6 +28,9 @@ export default function MainProject() {
       <Features />
       <Form />
       {/* <Testimonial /> */}
+
+      <ShowCase />
+      <Team />
     </Wrapper>
   );
 }
