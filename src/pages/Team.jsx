@@ -60,15 +60,17 @@ export default function Team() {
   return (
     <div className="team-container">
        <div className="works-header">
-                <h2>Last works</h2>
+                <h2>Startup Crew</h2>
                 <button className="view-all-btn">View all Works</button>
             </div>
+            <div className="subtitle-container">
 
       <p className="subtitle">
         The most important part of the Startup Framework is the samples. The
         samples form a set of 25 usable pages you can use as is or you can add
         new blocks from UI Kit.
       </p>
+      </div>
 
       <div className="team-grid">
         {teamMembers.map((member, index) => (
