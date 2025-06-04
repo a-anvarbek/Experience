@@ -61,7 +61,6 @@ const Price = styled.p`
   position: relative;
 
   &::after {
-    /* content: "$"; */
     font-size: 16px;
     position: absolute;
     top: 5px;
