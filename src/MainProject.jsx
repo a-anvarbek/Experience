@@ -11,7 +11,7 @@ import CallToAction from "./pages/CallToAction";
 // import ShowCase from "./pages/ShowCase";
 // import Team from "./pages/Team";
 // import Contact from "./pages/Contact";
-// import PricingTable from "./pages/PricingTable";
+import PricingTable from "./pages/PricingTable";
 // import Footer from "./pages/Footer";
 
 const Wrapper = styled.div`
@@ -29,6 +29,7 @@ export default function MainProject() {
       <Form />
       <Testimonial />
       <CallToAction />
+      <PricingTable />
     </Wrapper>
   );
 }
